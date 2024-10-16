@@ -20,5 +20,4 @@ pytest --html=report.html
 
 echo "Build process completed."
 
-:: Optional: List directory contents and output to a file
-dir > E:\prooutput.txt
+
