@@ -10,9 +10,13 @@ call myenv\Scripts\activate
 
 :: Install pytest
 pip install pytest
+pip install pytest-html
 
 :: Run the tests
 pytest -v test_file1.py > test_output.txt
+
+:: Generate HTML report
+pytest --html=report.html
 
 echo "Build process completed."
 
